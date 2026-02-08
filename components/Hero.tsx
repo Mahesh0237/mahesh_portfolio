@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ArrowDown, Download, Mail, Sparkles, MapPin, Briefcase, Github, Linkedin } from 'lucide-react';
+import { ArrowDown, Download, Mail, Sparkles, MapPin, Briefcase, Github, Linkedin, MessageCircle } from 'lucide-react';
 import Image from 'next/image';
 
 export default function Hero() {
@@ -63,11 +63,6 @@ export default function Hero() {
               <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-foreground/90 mb-4">
                 Full Stack Developer
               </h2>
-              {/* <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-xl">
-                I craft <span className="text-primary font-semibold">beautiful web experiences</span> and
-                <span className="text-accent font-semibold"> robust applications</span> that make a difference.
-                3+ years of turning ideas into reality.
-              </p> */}
               {/* Full Stack Developer with 3+ years of experience in building scalable web and mobile applications using React.js, Next.js, Node.js, and PostgreSQL. Skilled in REST APIs, payment integrations, authentication, and performance optimization, with a strong focus on clean UI/UX and reliable backend systems */}
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-xl">
                 Full Stack Developer with <span className="text-primary font-semibold">3+ years</span> of experience in building scalable web and mobile applications using React.js, Next.js, Node.js, and PostgreSQL. Skilled in REST APIs, payment integrations, authentication, and performance optimization, with a strong focus on clean UI/UX and reliable backend systems
@@ -151,6 +146,14 @@ export default function Hero() {
                   className="p-3 rounded-xl bg-card/80 border border-border/50 hover:bg-primary hover:text-white hover:border-primary transition-all"
                 >
                   <Linkedin size={20} />
+                </a>
+                <a
+                  href="https://wa.me/918374259858"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 rounded-xl bg-card/80 border border-border/50 hover:bg-primary hover:text-white hover:border-primary transition-all"
+                 >
+                  <MessageCircle size={18} />
                 </a>
               </div>
             </motion.div>
