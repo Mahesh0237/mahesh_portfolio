@@ -152,7 +152,7 @@ export default function Hero() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 rounded-xl bg-card/80 border border-border/50 hover:bg-primary hover:text-white hover:border-primary transition-all"
-                 >
+                >
                   <MessageCircle size={18} />
                 </a>
               </div>
@@ -178,7 +178,7 @@ export default function Hero() {
                 {/* Image wrapper */}
                 <div className="relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-[1.75rem] overflow-hidden bg-card border-4 border-white dark:border-card shadow-2xl">
                   <Image
-                    src="/profile.png"
+                    src="/profile1.png"
                     alt="Mahesh Uppari - Full Stack Developer"
                     fill
                     className="object-cover object-center"
